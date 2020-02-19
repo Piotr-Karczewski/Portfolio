@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import devgrub from '../assets/images/github.jpeg';
-import youtube from '../assets/images/YouTube.png';
-import evverest from '../assets/images/beer-oldest.jpg';
+import devgrub from '../assets/images/git.png';
+import recipe from '../assets/images/papu.png';
+import iss from '../assets/images/iss.png';
 import Card from '../components/Card'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
@@ -22,17 +22,17 @@ export class Carousel extends Component {
                 },
                 {
                     id: 1,
-                    title: 'Garrett Love',
-                    subTitle: 'YouTube channel',
-                    imgSrc: youtube,
+                    title: 'Recipe App',
+                    subTitle: 'Food recipe application',
+                    imgSrc: recipe,
                     link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
-                    imgSrc: evverest,
+                    title: 'International Space Station',
+                    subTitle: 'Check current location of ISS',
+                    imgSrc: iss,
                     link: 'https://github.com/garrettlove8/evverest',
                     selected: false
                 },
