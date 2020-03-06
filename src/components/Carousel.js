@@ -33,7 +33,7 @@ export class Carousel extends Component {
                     title: 'International Space Station',
                     subTitle: 'Check current location of ISS',
                     imgSrc: iss,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    link: 'http://helloiss.site/',
                     selected: false
                 },
                 ]
@@ -64,8 +64,8 @@ export class Carousel extends Component {
             } 
     render() {
         return (
-        <Container fluid={true}>
-            <Row className="justify-content-around">
+        <Container fluid={true} className="bg-carousel mb-0 p-0">
+            <Row className="justify-content-center pl-5">
                 {this.makeItems(this.state.items)};
             </Row>
         </Container>
